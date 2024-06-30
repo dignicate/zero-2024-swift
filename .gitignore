@@ -73,6 +73,89 @@ Dependencies/
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo.
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build generated files
+DerivedData
+build/
+
+# Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+# Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+# Swift Package Manager
+# Add this if you have dependencies you don't want to commit.
+Packages
+# Package.resolved
+Package.pins
+
+# Carthage
+Carthage/Build
+Carthage/Checkouts
+Carthage/Builds
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Code coverage
+*.xcresult
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Xcode warnings
+*.hmap
+
+# Xcode profiling
+*.xcworkspacedata
+
+# Temporary files
+*.tmp
+
+# Temporary Swift files
+# *.swift.tmp
+
+# IDE Derived Data
+.idea/
+.vscode/
+
+# Logs
+*.log
+*.txt
+
+# Env
+.env
+.env.*
+
+# SPM specific
+/.build
+/Package.resolved
+
+# Archives
+*.xcarchive
 # Instead, use fastlane to re-generate the screenshots whenever they are needed.
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/#source-control
@@ -88,3 +171,4 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
